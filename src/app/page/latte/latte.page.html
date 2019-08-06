@@ -1,0 +1,67 @@
+<ion-header>
+    <ion-toolbar color="dark">
+      <ion-title>LATTE</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="background-color">
+    <div class="cappaccino">
+    <ion-grid>
+      <ion-row>
+          <ion-col>
+              <h2>
+                  <font size="2">
+                      SUGAR
+                  </font>
+              </h2>
+              <img src="assets/s2.jpg" alt="Trulli" width="150" height="90">
+              <h4>Price:&nbsp;R{{price}}</h4>
+              <ion-button color="dark" (click)="onPriceMinus()">-</ion-button>
+              <ion-button color="dark" (click)="onPriceAdd()">+</ion-button>
+          </ion-col>
+          <ion-col>
+              <h2>
+                  <font size="2">
+                      MILK
+                  </font>
+              </h2>
+              <img src="assets/m2.jpg" alt="Trulli" width="150" height="90">
+              <h4>Price:&nbsp;R{{price2}}</h4>
+              <ion-button color="dark" (click)="onPriceMinus2()">-</ion-button>
+              <ion-button color="dark" (click)="onPriceAdd2()">+</ion-button>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col>
+            <h2>
+                <font size="2">
+                    HONEY
+                </font>
+            </h2>
+            <img src="assets/h2.jpg" alt="Trulli" width="150" height="90">
+            <h4>Price:&nbsp;R{{price3}}</h4>
+            <ion-button color="dark" (click)="onPriceMinus3()">-</ion-button>
+            <ion-button color="dark" (click)="onPriceAdd3()">+</ion-button>
+        </ion-col>
+        <ion-col>
+          <h2>
+              <font size="2">
+                  CREAM
+              </font>
+          </h2>
+          <img src="assets/cre2.jpg" alt="Trulli" width="150" height="90">
+          <h4>Price:&nbsp;R{{price4}}</h4>
+          <ion-button color="dark" (click)="onPriceMinus4()">-</ion-button>
+          <ion-button color="dark" (click)="onPriceAdd4()">+</ion-button>
+      </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+    <ion-card color="dark">
+      <h4>Total:&nbsp;R{{total}}</h4>
+      <ion-button (click)="onPrint()">Print</ion-button>
+
+    </ion-card>
+  </div>
+  </ion-content>
+  

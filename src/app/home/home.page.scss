@@ -1,1 +1,18 @@
-
+ion-toolbar{
+    text-align: center;
+    color: black;
+}
+.primary{
+    text-align: center;
+    color: black;
+}
+.background-image{
+    --background: url("/assets/c.jpg")0 0/100% 100% no-repeat;
+    background-size: cover;
+}
+.h1{
+    color:black;
+}
+.ion-button{
+    color: black
+}
